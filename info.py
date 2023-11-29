@@ -20,7 +20,7 @@ API_ID = int(environ.get('API_ID', '14769951'))
 
 API_HASH = environ.get('API_HASH', 'b1bdb71a659b1c98b37c8f557d908e1f')
 
-BOT_TOKEN = environ.get('BOT_TOKEN', '6078755818:AAHx7-Kp_kzyhANs6igib8ZtQ_i_rqYEe5Y')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6298960123:AAHOIg1fwIA2dakpYjjGTuatUncDEnbsrdU')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -44,7 +44,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL = environ.get("REQ_CHANNEL", "-1001203918226")
+REQ_CHANNEL = environ.get("REQ_CHANNEL", "-1001266988452")
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
