@@ -36,8 +36,8 @@ auth_grp = environ.get('AUTH_GROUP', '')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Max100p:Max100p@cluster0.l0sarpv.mongodb.net/Max100p?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Max100p")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Maxi1000:TeraBaap1000@cluster0.gj8ysr3.mongodb.net/Maxi1000?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Maxi1000")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
