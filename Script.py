@@ -2,7 +2,7 @@ class script(object):
     START_TXT = """"<b>Hello</b> Me :), An Autofilter who can provide you movies/series files.
 Group : t.me/CinemaChatRoom"""
     HELP_TXT = """<i>Here is my help menu"""
-    ABOUT_TXT = """<b>★ Dᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/l_Damon_l'>Dᴀᴍᴏɴ Sᴀʟᴠᴀᴛᴏʀᴇ</a>
+    ABOUT_TXT = """<b>★ Dᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/ToxicMax'>Dᴀᴍᴏɴ Sᴀʟᴠᴀᴛᴏʀᴇ</a>
 ★ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ★ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ★ Dᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
