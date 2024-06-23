@@ -16,11 +16,11 @@ def is_enabled(value, default):
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
 
-API_ID = int(environ.get('API_ID', '14769951'))
+API_ID = int(environ.get('API_ID', '16770898'))
 
-API_HASH = environ.get('API_HASH', 'b1bdb71a659b1c98b37c8f557d908e1f')
+API_HASH = environ.get('API_HASH', '0fc19aa428dcceaaad4c502daf8df3ba')
 
-BOT_TOKEN = environ.get('BOT_TOKEN', '6298960123:AAHOIg1fwIA2dakpYjjGTuatUncDEnbsrdU')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6350283055:AAF41plMDptFgnIIAMtSgywr7jIcCY2kQQs')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -36,21 +36,21 @@ auth_grp = environ.get('AUTH_GROUP', '')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Maxi1000:TeraBaap1000@cluster0.gj8ysr3.mongodb.net/Maxi1000?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Maxi1000")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Skfilter:skfilter@skfilter.kmk96t1.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "skfilter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002065766477')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL = environ.get("REQ_CHANNEL", "-1001925620163")
+REQ_CHANNEL = environ.get("REQ_CHANNEL")
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001616955451'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CinemaChatRoom')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001701265662'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ProPunjabiFilms')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
